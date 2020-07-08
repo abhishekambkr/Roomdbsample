@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_margin="7dp"
-                card_view:srcCompat="@drawable/ic_delete"
+                android:src="@drawable/ic_delete"
                 android:tint="#9E9E9E"/>
 
             <ImageView
@@ -50,10 +50,10 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_margin="7dp"
-                card_view:srcCompat="@drawable/ic_edit_black_24dp"
+                android:src="@drawable/ic_edit_black_24dp"
                 android:tint="#9E9E9E"/>
         </LinearLayout>
 
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>

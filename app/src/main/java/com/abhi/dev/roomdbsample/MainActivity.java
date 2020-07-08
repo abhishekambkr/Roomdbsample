@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements NoteListAdapter.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         noteListAdapter = new NoteListAdapter(this, this);
         recyclerView.setAdapter(noteListAdapter);
